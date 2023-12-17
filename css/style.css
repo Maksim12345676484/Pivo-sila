@@ -6,19 +6,18 @@
   }
 
 body {
+    width: auto;
     display: flex;
     justify-content: center;
     font-family: arial;
     margin: auto;
-    background-color: bisque;
+    background-color: fff;
 }
 
 /* Header*/
 
 .header_top {
-    margin: auto;
     background: #FFF;
-    background-size:cover;
 }
 
 .header_logo_top{
@@ -44,11 +43,12 @@ body {
     width: 1450px;
     height: 80px;
     padding: 20px;
-    
     align-items: center;
+    gap: 20px;
 }
 
 .header_search {
+    width:21pc ;
     border-radius: 6px;
     border: 1px solid rgba(0, 0, 0, 0.10);
     background: #FFF;
@@ -61,15 +61,17 @@ body {
 }
 
 .header_button {
-    background-color: rgba(136, 82, 206, 0.60) ;
+    background:  100%; ;
+    color: #FFF;
+    cursor: pointer;
+    align-items: center;
     display: flex;
     width: 160px;
     padding: 12px;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
     border-radius: 8px;
-    border:   #FFF;
+    border: 1px solid #FFF;
 }
 
 .header_navigation_link {
@@ -82,35 +84,64 @@ body {
     text-decoration: none;
     color: #000
 }
-
-.header_title {
-    color: #B13FF6;
-}
-
 .header_mid {
+    width: 1500px;
+    color: #FFF;
     display: flex;
+    padding: 60px 170px;
     justify-content: center;
     align-items: center;
-    background-color: rgba(136, 82, 206, 0.60);
+    gap: 60px;
+    align-self: stretch;
+    background-color: rgba(146, 93, 214, 0.6);
+}
+
+.header_mid_info {
+    display: flex;
+    justify-content: baseline;
+} 
+
+h1 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.subscript_h1{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header_buttons {
+    margin: 10px;
+    padding-right: 200px;
+    display: flex; 
+    justify-content: baseline;
+    align-items: center;
+    gap: 10px;
 }
 
 .header_button_mid {
+    cursor: pointer;
     display: flex;
+    align-items: center;
     width: 160px;
     padding: 12px;
     flex-direction: column;  
     justify-content: flex-end;
-    align-items: center;
     border-radius: 8px;
+    border: #000;
     background: #000;
     color: #FFF;
 }
 
 .img_astronaut {
-    height: 200px;
-    width: 200px;
+    width: 599px;
+    height: 465px;
+    flex-shrink: 0;
     display: flex;
+    justify-content: center;
     margin: auto;
     object-fit: cover;
-    
 }
