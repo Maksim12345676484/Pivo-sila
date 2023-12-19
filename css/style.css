@@ -108,7 +108,7 @@ h1 {
     font-weight: 700;
 }
 
-.subscript_h1{
+.subtitle_h1{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -149,18 +149,15 @@ h1 {
 
 /* main */
 
-.main {
+
+.main_top {
     margin: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px
-}
-
-.main_top {
+    margin-bottom: 20px;
     text-align: center;
-    ;
 }
 
 .main_title_text {
@@ -173,7 +170,7 @@ h1 {
     line-height: 48px;
 }
 
-.main_title_subscript {
+.main_title_subtitle {
     color: #000;
     text-align: center;
     font-family:Arial;
@@ -187,6 +184,7 @@ h1 {
 .main_buttons {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .main_button_browse {
@@ -228,7 +226,7 @@ h1 {
     line-height: 24px; 
 }
 
-.main_products_subscript {
+.main_products_subtitle {
     color: #000;
     font-size: 20px;
     font-style: normal;
@@ -242,3 +240,82 @@ h1 {
     object-fit: cover;
 }
 
+
+/* WHY CHOOSE US */
+
+.why_choose_us {
+    background-color: rgba(146, 93, 214, 0.6);
+}
+
+.why_choose_us_top {
+    padding: 50px;
+    padding-bottom: 10px ;
+    padding-right: 800px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px; 
+}
+
+.why_choose_us_title_text {
+    color: #000;
+    font-family: arial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.why_choose_us_title_subtitle {
+    color: #000;
+    font-family: arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.why_choose_us_buttons {
+    display: flex; 
+    justify-content: center;
+    padding-right: 960px;
+    padding-bottom: 70px;
+}
+
+.why_choose_us_button_explore_more {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 160px;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 8px;
+    border: #000;
+    background: #000;
+    color: #FFF; 
+}
+
+
+
+.experts {
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 527px;
+    height: 196px;
+    border: 2px solid;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+
+
+.img_experts {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
